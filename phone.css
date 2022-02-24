@@ -1,0 +1,32 @@
+#navbar{
+    flex-direction: column;
+    position: sticky;
+}
+#navbar ul li {
+    font-size: 0.8rem;
+    
+}
+#home{
+    height: 300px;
+    padding: 34px 34px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#home::before{
+    height: 650px;
+    width: 100%;
+    
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+
+}
+#services .box{
+    margin-bottom: 50px;
+}
+#navbar{
+
+}
