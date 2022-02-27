@@ -1,0 +1,36 @@
+/* .wrapper{
+    display: inline-flex;
+}
+.wrapper .dynamic{
+    /* margin-left: 15px; */
+    /* line-height: 80px; */
+    /* overflow: hidden; */
+/* } */ */
+/* .dynamic li{
+    list-style: none;
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* color: white;
+    top: 0;
+    animation: typing 4.5s steps(6) infinite;
+    position: relative; */
+/* } */ */
+/* .dynamic li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(spaghetti-g811ff3d98_1920.jpg) no-repeat center center/cover;
+    border-left: 2px solid black;
+   
+    /* animation-timing-function: 2s; */
+/* } */
+/* @keyframes typing{
+    33% , 100%{
+        top: -360px;
+    }
+} */
+/* .dynamic li span{
+    position: relative;
+*/

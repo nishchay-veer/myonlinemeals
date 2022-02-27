@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyOnlineMeals</title>
     <link rel="stylesheet" href="responsive_style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Mukta:wght@300&family=Raleway:wght@100&family=Roboto+Serif:wght@100&family=Roboto:wght@300&family=Source+Sans+3:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Mukta:wght@300&family=Raleway:wght@100&family=Roboto+Serif:wght@100&family=Roboto:wght@300&family=Source+Sans+3:wght@500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" media="screen and (max-width :1100px)" href="phone.css">
 
-    
+
+
 </head>
 
 <body>
@@ -29,74 +32,82 @@
     </nav>
     <section id="home">
         <h1 class="h1-primary">Welcome to MyOnlineMeals</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta obcaecati quisquam explicabo et similique, quia dolores fugit eveniet, repudiandae nulla fuga reiciendis quae beatae non sed! Aliquam aspernatur a in?</p>
+        <p>Hungry ? </p>
         
-        <button id ="order">Order now</button>
+        <p>Discover the best restaurants available in Lucknow.</p>
+
+        <button id="order"><a href="https://www.zomato.com/lucknow/order-food-online?delivery_subzone=11202"
+                target="_blank">Order now</a></button>
     </section>
     <section id="services-container">
         <h1 class="h-primary center">Our Services</h1>
         <div id="services">
-            <div class = "box 1">
+            <div class="box-1"><a href="https://www.wedmegood.com/vendors/lucknow/wedding-catering/"  target="_blank">
                 <img src="Pizza-logo-vector-PNG-removebg-preview.png">
                 <h2 class="h-secondary center">Food Catering</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta obcaecati quisquam explicabo et similique, quia dolores fugit eveniet, repudiandae nulla fuga reiciendis quae beatae non sed!</p>
-                
+                <p>Think of all the yummy wedding food that you have had when you were really young ?A lot,right? So,you know that wedding food is an impoortant attraction in weddings, it's something that most people remember for the longest time period ? Find cateres according to your budget and taste.</p></a>
+
 
             </div>
-            <div class = "box 2">
+            <div class="box-2"><a href="https://thecentralkitchen.in/about-bulk-order" target="_blank">
                 <img src="Pizza-logo-vector-PNG-removebg-preview.png">
                 <h2 class="h-secondary center">Bulk Ordering</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta obcaecati quisquam explicabo et similique, quia dolores fugit eveniet, repudiandae nulla fuga reiciendis quae beatae non sed!</p>
-                
+                <p>MyOnlineMeals.com introduces an exciting bulk food service. Now Order your favourite tasty food by the kilo. Same Taste, Same Quality at Discounted rates.Birthday Party? Calling guests over? Celebrating your Anniversary? Special Occasion? Be at ease. Simply place the order and Relax.</p></a>
+
 
             </div>
-            <div class = "box 3">
-                <img src="gaadi-removebg-preview.png">
+            <div class="box-3"><a href="https://www.swiggy.com/">
+                <img src="gaadi-removebg-preview.png" target="_blank">
                 <h2 class="h-secondary center">Food Ordering</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta obcaecati quisquam explicabo et similique, quia dolores fugit eveniet, repudiandae nulla fuga reiciendis quae beatae non sed!</p>
-                
+                <p>Swiggy is an online food home delivery platform, aiming to bring the delicacies of old and modern Lucknow to the people of Lucknow, from within the comfort and ease of their homes. Enjoy good food and the great flavors of Lucknow with family and friends, and leave the work to us!</p></a>
+
 
             </div>
-            
+
 
         </div>
-        
+
     </section>
     <section id="client-container">
         <h1 class="h-primary center">Our Clients</h1>
         <div class="clients">
-            <img src = "microsoft-removebg-preview.png">
-            <img src = "2021_Facebook_icon.svg-removebg-preview.png">
-            <img src = "2560px-Skype_logo.svg-removebg-preview.png">
-            
-            <img src = "png-transparent-apple-logo-cupertino-cartoon-crowd-company-computer-logo-removebg-preview.png">
+            <img src="microsoft-removebg-preview.png">
+            <img src="2021_Facebook_icon.svg-removebg-preview.png">
+            <img src="2560px-Skype_logo.svg-removebg-preview.png">
+
+            <img src="png-transparent-apple-logo-cupertino-cartoon-crowd-company-computer-logo-removebg-preview.png">
         </div>
     </section>
     <section id="contact-container">
         <h1 class="h-primary center">Contact Us</h1>
         <div class="details">
-            <form action="noaction.php">
+            <form id="form" method="post" autocomplete="off">
                 <div class="form-details">
-                    <label name = "name">Name :<br></label>
-                    <input type="text" id="name" placeholder="Enter your name">
+                    <label name="name">Name :<br></label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
                 </div>
                 <div class="form-details">
-                    <label name = "phonenum">Phone :<br></label>
-                    <input type="phone" id="phonenum" placeholder="Enter your Mob Number">
+                    <label name="phonenum">Phone :<br></label>
+                    <input type="text" maxlength="10" pattern="\d{10}" id="phonenum" placeholder="Enter your Mob Number"
+                        title="Please enter exactly 10 digits" required>
                 </div>
                 <div class="form-details">
 
-                    <label name = "Email">Email :<br></label>
-                    <input type="email" id="Email" placeholder="Enter your email">
+                    <label name="Email">Email :<br></label>
+                    <input type="email" id="Email" placeholder="Enter your email" required>
                 </div>
                 <div class="form-details">
-                    <label name = "message">Message :<br></label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                    <label name="message">Message :<br></label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"
+                        required></textarea>
 
+                </div>
+                <div class="Submit">
+                    <input type="submit" id="submit" value="Submit">
                 </div>
 
 
-                
+
             </form>
         </div>
     </section>
@@ -107,5 +118,27 @@
 
 
 </body>
+<script>
+    var form = document.getElementById('form')
+    var error = []
+    form.addEventListener('submit', function (event) {
+        event.preventDefault()
+        var username = document.getElementById('name').value
+        var phone = document.getElementById('phonenum').value
+        
+        var email = document.getElementById('Email').value
+        var message = document.getElementById('message').value
+        if (username != "" && phone != "" && email != "" && message != "") {
+            alert("Your form has been submitted successfully.")
+            console.log(username)
+            console.log(phone)
+            console.log(email)
+        }
+        console.log(message)
+
+    })
+</script>
+
+
 
 </html>
